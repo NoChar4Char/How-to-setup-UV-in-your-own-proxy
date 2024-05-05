@@ -6,7 +6,11 @@ document // makes it so you can press enter to submit as opposed to just being a
             document.getElementById("searchButton").click(); // add display: one to body & etc. here
             document.getElementById("searchButton").style.display = "none";
             document.getElementById("urlInput").style.display = "none";
+            document.getElementById("iframeWindow").style.display = "inline";
             document.getElementById("iframeWindow").style.height = "100vh";
+            document.getElementById("window").style.display = "none";
+
+
         }
     });
 
