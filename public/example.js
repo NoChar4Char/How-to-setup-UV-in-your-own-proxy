@@ -1,11 +1,12 @@
-location.href = __uv$config.prefix + __uv$config.encodeUrl(url);
-
 document // makes it so you can press enter to submit as opposed to just being able to press a button
     .getElementById("urlInput")
     .addEventListener("keydown", function (event) {
         if (event.key === "Enter") {
             event.preventDefault();
-            document.getElementById("searchButton").click();
+            document.getElementById("searchButton").click(); // add display: one to body & etc. here
+            document.getElementById("searchButton").style.display = "none";
+            document.getElementById("urlInput").style.display = "none";
+            document.getElementById("iframeWindow").style.height = "100vh";
         }
     });
 
