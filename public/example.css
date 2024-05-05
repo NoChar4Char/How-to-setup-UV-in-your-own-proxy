@@ -20,7 +20,7 @@
     z-index: -4;
   }
 
-.iframeWindow {
+  .iframeWindow {
     position: absolute;
     width: 100vw;
     height: 90vh;
@@ -29,7 +29,8 @@
     margin: 0;
     left: 0;
     bottom: 0;
-    background-color: #141414;
+    background-color: #2596be;
+    font-family: 'Comic Sans MS', cursive;
 }
 
 #urlInput {
@@ -46,6 +47,7 @@
     color: aliceblue;
     background-color: #25252a;
     font-size: 5vh;
+    font-family: 'Comic Sans MS', cursive;
 }
 
 #searchButton {
@@ -60,4 +62,5 @@
     color: #141414;
     background-color: aliceblue;
     font-size: 5vh;
+    font-family: 'Comic Sans MS', cursive;
 }
