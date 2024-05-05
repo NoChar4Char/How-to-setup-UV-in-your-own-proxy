@@ -1,3 +1,5 @@
+location.href = __uv$config.prefix + __uv$config.encodeUrl(url);
+
 document // makes it so you can press enter to submit as opposed to just being able to press a button
     .getElementById("urlInput")
     .addEventListener("keydown", function (event) {
